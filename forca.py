@@ -41,6 +41,7 @@ while True:
                 break
             elif life == 0:
                 print('Você perdeu o jogo')
+		break
             while True:
                 letra = input('Qual palavra deseja tentar: ').upper()
                 if letra not in trys:
@@ -80,6 +81,7 @@ while True:
                 break
             elif life == 0:
                 print('Você perdeu o jogo')
+		break
             while True:
                 letra = input('Qual palavra deseja tentar: ').upper()
                 if letra not in trys:
@@ -116,6 +118,7 @@ while True:
                 break
             elif life == 0:
                 print('Você perdeu o jogo')
+		break
             while True:
                 letra = input('Qual palavra deseja tentar: ').upper()
                 if letra not in trys:
